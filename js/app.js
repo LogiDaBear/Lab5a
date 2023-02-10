@@ -31,6 +31,10 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiply(a, b) { //eslint-disable-line
+  let myMult = a*b;
+  let myMStr = `The product of ${a} and ${b} is ${myMult}.`;
+
+  return [myMult,myMStr];
 
 }
 
@@ -52,6 +56,7 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sumAndMultiply(a, b, c) { //eslint-disable-line
+  
 
 }
 
