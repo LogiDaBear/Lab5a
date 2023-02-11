@@ -123,7 +123,6 @@ function multiplyArray(multArr) { //eslint-disable-line
   let firstElem = `The numbers ${multArr} have a product of ${resOne}.`;
 
   return [resOne, firstElem];
-
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
